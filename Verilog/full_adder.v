@@ -2,7 +2,7 @@ module full_adder
 (
     input a,
     input b,
-    output cin,
+    input cin,
     output sum,
     output cout
 );
@@ -15,7 +15,6 @@ half_adder HA1
 (
     .a(a),
     .b(b),
-    .cin(cin),
     .sum(sum1),
     .carry(carry1)
 );
